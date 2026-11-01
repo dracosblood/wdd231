@@ -16,7 +16,7 @@ body{
     justify-content: center;
     background-color: var(--background-color);
     font-family: var(--body-font);
-    border: 1px solid black;
+
 }
 .header-home{
     width: 100%;
