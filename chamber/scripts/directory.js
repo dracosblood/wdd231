@@ -16,7 +16,7 @@ document.querySelector("#hamburger").addEventListener("click", function() {
 
 async function fetchMembers() {
   try {
-    const response = await fetch('member.json');
+    const response = await fetch('members.json');
     const data = await response.json();
     
     const directoryContainer = document.getElementById('directory');
