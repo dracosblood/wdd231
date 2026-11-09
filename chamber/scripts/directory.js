@@ -16,7 +16,7 @@ document.querySelector("#hamburger").addEventListener("click", function() {
 
 async function fetchMembers() {
   try {
-    const response = await fetch('members.json');
+    const response = await fetch('data/members.json');
     const data = await response.json();
     
     const directoryContainer = document.getElementById('directory');
@@ -31,7 +31,7 @@ async function fetchMembers() {
         <p>${member.description}</p>
         <p>Phone: ${member.phone}</p>
         <img src="${member.image}" alt="${member.companyname}">
-        <p>Website: <a href="${member.website}" target="_blank">${member.website}</a></p>
+        <p>Website: <a href="${member.website}" target="_blank">${member.companyname}</a></p>
       `;
 
       directoryContainer.appendChild(memberCard);
@@ -56,3 +56,18 @@ document.getElementById("list-view").addEventListener("click", function() {
     directoryContainer.classList.remove('grid-view');
 });
 
+const gridButton = document.querySelector("#grid-view");
+const listButton = document.querySelector("#list-view");
+const display = document.querySelector("#directory");
+
+
+gridButton.addEventListener("click", () => {
+    display.classList.add("grid");
+    display.classList.remove("list");
+});
+
+
+listButton.addEventListener("click", () => {
+    display.classList.add("list");
+    display.classList.remove("grid");
+});

@@ -24,6 +24,7 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    background-color: var(--primary-color);
     align-items: center;
 }
 .header-home section{
@@ -36,8 +37,8 @@ body{
     
 }
 .header-home img{
-    width: 100px;
-    height: 100px;
+    width: 30%;
+    height: 70px;
     border-radius: 50%;
     border: 1px solid black;
 }
@@ -89,6 +90,7 @@ main{
     justify-content: center;
     align-items: center;
     gap: 20px;
+    padding: 20px;
 }
 #view-buttons button{
     background-color: var(--primary-color);
@@ -132,7 +134,7 @@ main{
 }
 .member-card a{
     width: 100%;
-    text-align: center;
+    text-align: justify;
     font-family: var(--body-font);
     color: var(--accent2);
     text-decoration: none;
@@ -145,6 +147,30 @@ main{
 .member-card img{
     width: 100%;
     border-radius: 15px;
+}
+#directory.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin-left: 40px;
+}
+#directory.grid .member-card {
+    width: 80%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+#directory.grid a{
+    text-align: justify;
+}
+
+#directory.list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 footer{
     width: 100%;

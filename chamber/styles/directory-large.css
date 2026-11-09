@@ -1,10 +1,112 @@
 @media screen and (min-width: 768px) {
-    body{
-        max-width: 100%;
+    body {
+    font-family: var(--body-font);
+
+    color: var(--accent2);
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+    main{
+        width: 100%;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+
     }
-    
+
+    .photo-home{
+        width: 50%;
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 20px;
+    }
+    .photo-home img{
+        width: 38%;
+        border-radius: 15px;
+    }
+    .about{
+        width: 100%;
+        display: flex;
+    }
+    nav a{
+    display: flex;
+    text-decoration: none;
+    color: var(--accent2);
+    font-family: var(--titles-font);
+    font-size: 1.2rem;
+    margin-left: 20px;
+    }
+    #hamburger{
+        display: none;
+    }
+    .header-home{
+        display: flex;
+        flex-direction: row;
+        background-color: var(--primary-color);
+        justify-content:space-between;
+        align-items: center;
+        gap: 10px;
+    }
+    .header-home nav{
+
+        width: 50%;
+        height: 50px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+  
+        gap: 20px;
+    }
+    .header-home img{
+        width: 30%;
+        height: 70px;
+
+    }
+
+    #directory.grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+        margin-left: 40px;
+    }
+    #directory.grid .member-card {
+        width: 80%;
+        height: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 20px;
+    }
+
+    #directory.list {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+
+    #directory.list .member-card {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    footer{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
 }
