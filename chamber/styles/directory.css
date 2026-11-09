@@ -1,0 +1,178 @@
+:root{
+    --accent1: #050505;
+    --accent2: #2b2d42;
+    --primary-color: #aae9f3;
+    --secondary-color: #f05454;
+    --background-color:  #f8f6f0;
+    --titles-font: 'alegreya', serif;
+    --body-font: 'lato', sans-serif;
+    --footer: #e7f3ef;
+}
+body{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--background-color);
+    font-family: var(--body-font);
+
+}
+
+.header-home{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-home section{
+    font-family: var(--titles-font);
+    font-size: 0.8rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    
+}
+.header-home img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+.header-home nav button{
+    background: none;
+    border: none;
+    color: var(--accent1);
+    font-size: 24px;
+    cursor: pointer;
+}
+nav a{
+    display: none;
+}
+.nav-home.show {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    border: none;
+    box-shadow: none;
+    outline: none;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--primary-color);
+    gap: 10px;
+    z-index: 1000;
+    width: 100%;
+  
+}
+.nav-home.show a {
+    display: block;
+    color: var(--accent1);
+    padding: 10px 0;
+    text-decoration: none;
+    align-self: center;
+   
+}
+main{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#view-buttons{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+#view-buttons button{
+    background-color: var(--primary-color);
+    border: 1px solid var(--accent1);
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+#view-buttons button:hover{
+    background-color: var(--secondary-color);
+    color: var(--accent1);
+}
+#directory{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.member-card{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--accent1);
+    background-color: var(--primary-color);
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.member-card h3{
+    width: 100%;
+    text-align: center;
+    font-family: var(--titles-font);
+}
+.member-card p{
+    width: 100%;
+    text-align: justify;
+    font-family: var(--body-font);
+}
+.member-card a{
+    width: 100%;
+    text-align: center;
+    font-family: var(--body-font);
+    color: var(--accent2);
+    text-decoration: none;
+}
+.member-card a:hover{
+    cursor: pointer;
+    color: var(--secondary-color);
+    text-decoration: underline;
+}
+.member-card img{
+    width: 100%;
+    border-radius: 15px;
+}
+footer{
+    width: 100%;
+    background-color: var(--footer);
+    display: flex;
+    flex-direction: column;
+
+    
+}
+footer section{
+    width: 100%;
+
+    gap: 20px;
+    padding: 20px ;
+}
+.contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 20px;
+    
+}
+.contact img{
+    width: 40px;
+}
+
+.js-footer{
+    width: 100%;
+
+    
+}

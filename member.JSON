@@ -1,0 +1,28 @@
+{
+  "familyName": "Tovar",
+  "moveInDate": "2026-01-22",
+  "numberOfPeople": 6,
+  "visitedByBishopric": true,
+  "familyMembers": [
+    {
+      "name": "Pedro Tovar",
+      "gender": "Male",
+      "birthdate": "1994-01-19"
+    },
+    {
+      "name": "Andrea de Tovar",
+      "gender": "Female",
+      "birthdate": "1993-08-24"
+    },
+    {
+      "name": "Maria Tovar",
+      "gender": "Female",
+      "birthdate": "2022-03-05"
+    },
+    {
+      "name": "Luz Tovar",
+      "gender": "Female",
+      "birthdate": "2024-11-10"
+    }
+  ]
+}

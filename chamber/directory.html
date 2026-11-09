@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is a directory page for the chamber section of the website for CSE231">
+    <meta name="author" content="Darwin J Tovar">
+    <link rel="stylesheet" href="styles/directory.css">
+    <link rel="stylesheet" href="styles/directory-large.css" media="screen and (min-width: 768px)">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="images/favicon.ico"  type="image/x-icon"> 
+
+    <script src="scripts/directory.js" defer></script>
+    
+    <title>Bussines Guiria</title>
+</head>
+<body>
+    <header class="header-home">
+        <section class="nav-title">
+            <img src="../images/logo-home.png" alt="logo for Darwin j Tovar">
+            <h2>Bussines of Interest in Guiria</h2>
+        </section>
+
+        <nav class="nav-home">
+            <button id="hamburger">&#9776;</button>
+            <a href="#">Home</a>
+            <a href="#">Discover</a>
+            <a href="#">Directory</a>
+            <a href="#">Join</a>
+
+        </nav>
+    </header>
+    <main>
+        <section id="directory">
+            <h1>Directory</h1>
+            <p>Welcome to the directory page of the Chamber of Commerce. Here you can find a list of businesses in Guiria, Venezuela.</p>
+            <div id="view-buttons">
+                <button id="grid-view">Grid</button>
+                <button id="list-view">List</button>
+            </div>
+            
+            <ul id="business-list">
+                <!-- Business entries will be dynamically populated here -->
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <section class="footer-info">
+            <h4>Guiria Chamber of Commerce</h4>
+            <p>Address: 123 Main Street, Guiria, Sucre, Venezuela</p>
+            <p>Phone: +58 295 1234567</p>
+            <p>Email: info@chamber.com</p>
+        </section>
+        <section class="contact">
+            <a href="linkedin"><img src="../images/linkedin.png" alt=""></a>
+            <a href="github"><img src="../images/signo-de-github.png" alt=""></a>
+            <a href="facebook"><img src="../images/facebook.png" alt=""></a>
+        </section>
+        <section class="js-footer">
+            <p id="year"><span></span></p>
+            <p id="lastModified"></p>
+        </section>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,67 @@
+[
+  
+    {
+        "companyname": "Hotel Agua Azul",
+        "address": "Concepcion Street, Guiria, Sucre, Venezuela",
+        "phone":" +58 295 1234567",
+        "website": "www.hotelaguaazul.com",
+        "image": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9STGqN2RLNR4aBEpUMK2ZJdNmvrVUsvNPc3MD0W0kOSD3Q0W3MBsx0R2s_vEO1rlGxEt6HlNlTFw5ZOmYz5hPTLP9L78v_wEizz-CxFeEKHcV1cDq7vRxG9wnE3NbXq3gg3JeXw=s680-w680-h510-rw",
+        "membership": ["Member","Silver", "Gold"],
+        "description": "Hotel Agua Azul is a charming hotel located in the heart of Guiria, Sucre, Venezuela. It offers comfortable accommodations, excellent service, and a variety of amenities for both business and leisure travelers. Guests can enjoy the beautiful views of the surrounding area and explore the local culture and attractions."
+    },
+    {
+        "companyname": "Hotel Da Mario",
+        "address":"Principal Road to the Salinas, Guira sucre Venezuela",
+        "phone":" +58 295 1234567",
+        "website": "www.hoteldamario.com",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8S2RkcGQ7xofLkmvtRTzCoNOltdmoJ-YstTsKD6xUyjEGN6hnvZEwOU2G&s=10",
+        "membership": ["Member","Silver", "Gold"],
+        "description": "Hotel Da Mario is a delightful hotel situated in the vibrant city of Guiria, Sucre, Venezuela. It provides cozy rooms, outstanding service, and an array of facilities for both business and tourism. Visitors can take in the stunning scenery and immerse themselves in the rich local culture."
+    },
+    {
+        "companyname":"Canguros Store",
+        "address":"Principal Street, Guiria, Sucre, Venezuela",
+        "phone":" +58 295 1234567",
+        "website": "https://cangurovenezuela.com/",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuKtOucZ4pmXNucV8fj5uBrCt3wrB8oydM57L6ZHdmORDhbqnrFvqyPy8&s=10",
+        "membership": [],
+        "description": "Canguros Store is a local business located in Guiria, Sucre, Venezuela. It offers a wide range of products and services to meet the needs of the community."
+    },
+    {
+        "companyname":"El Palacio del Blumer",
+        "address":"Principal Street, Guiria, Sucre, Venezuela",
+        "phone":" +58 295 1234567",
+        "website": "https://palaciodelblumer.com/pages/pdb-guiria",
+        "image": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SqliRJ1YupmUpL6hNy8dbSmLwNQZyF0JCu8rmVb8OG7wl16CzJNoJBT7uhS-RMNUwca7oldyzgouBJtkKxyk93p8Y_ez9EOuAcWcPqoZzAkCrlueWxrQgB3AljA2esBz7cZxyGmQ=s680-w680-h510-rw",
+        "membership": [],
+        "description": "El Palacio del Blumer is a prestigious establishment located in Guiria, Sucre, Venezuela. It offers exceptional amenities and services for both business and leisure travelers."
+    },
+    {
+        "companyname":"Farmacia Saas",
+        "address":"Principal Street, Guiria, Sucre, Venezuela",
+        "phone":" +58 295 1234567",
+        "website": "https://www.farmaciasaas.com/",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRi7N08Pp6eZ1eOoe9fctZdc4uWVRmSpsRkE5uFGLXO-fLC8hWb_EoU-89d&s=10",
+        "membership": [],
+        "description": "Farmacia Saas is a trusted pharmacy located in Guiria, Sucre, Venezuela. It provides quality pharmaceutical services and a wide range of health products to the community."
+    },
+    {
+        "companyname":"Maderos Restaurant",
+        "address":"Principal Street, Guiria, Sucre, Venezuela",
+        "phone":" +58 295 1234567",
+        "website": "https://maderosrestaurant.com/",
+        "image": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Rf0IXSZiEyXFuGRa6Y1fDdm5frGE3O4PuyOsSTu5JfpDa-cornjVMMuk3fYOY1jjbNBwScS6RQstCApiz83bBUJCKk78b0q0R0bxBPciHZChxrDNSigyDlchGCSlkQrGpTiRQ2pKN4CLg=s680-w680-h510-rw",
+        "membership": [],
+        "description": "Maderos Restaurant is a delightful dining establishment located in Guiria, Sucre, Venezuela. It offers a variety of delicious dishes and a warm, inviting atmosphere for guests to enjoy."
+    },
+    {
+        "companyname":"Pizzeria las Gil",
+        "address":"Tamarindo Street, Guiria, Sucre, Venezuela",
+        "phone":" +58 295 1234567",
+        "website": "https://www.instagram.com/pizzerialasgil/",
+        "image": "https://scontent.cdninstagram.com/v/t51.82787-19/613758682_17842013205681268_2409972317458943552_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=107&ig_cache_key=GNo2lSR01DNrN2M-AEBOqtwN8XEhbmNDAQAB1501500j-ccb7-5&ccb=7-5&_nc_sid=669407&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=f2fbij7vRikQ7kNvwElxpQi&_nc_oc=AdqepvaAMn54F4HRgLW7unRzpZimR_QIa-Fan4zgyWAtFtRxcp84KTFGNsJ53MLraOw&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=C33ah9vr1omyyZwh-PdQ9w&_nc_ss=7ba8c&oh=00_AQSDbQjHWiJf1u6_ZRj033N6I2CdhS9q87G2w9Pd6IhacA&oe=6AF7E56C",
+        "membership": [],
+        "description": "Pizzeria las Gil is a popular pizzeria located in Guiria, Sucre, Venezuela. It serves a variety of delicious pizzas and offers a cozy atmosphere for customers to enjoy their meals."
+    }
+
+]
