@@ -92,6 +92,7 @@ section h2{
 nav a{
     display: none;
 }
+
 .nav-home.show {
     position: absolute;
     top: 0px;

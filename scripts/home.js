@@ -18,6 +18,7 @@ document.querySelector("#hamburger").addEventListener("click", function() {
 
 
 
+
 const courses = [
   {
     subject: 'CSE',
