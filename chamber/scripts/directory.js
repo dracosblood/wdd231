@@ -39,7 +39,7 @@ async function fetchMembers() {
     });
 
   } catch (error) {
-    console.error('Error cargando los miembros:', error);
+    console.error('Error :', error);
   }
 }
 
