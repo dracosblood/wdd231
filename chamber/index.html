@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is a directory page for the chamber section of the website for CSE231">
+    <meta name="author" content="Darwin J Tovar">
+    <link rel="stylesheet" href="styles/home.css">
+    <link rel="stylesheet" href="styles/home-large.css" media="screen and (min-width: 768px)">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"/>
+    <link rel="icon" href="images/favicon.ico"  type="image/x-icon"/> 
+
+    
+    <script src="scripts/index.js" defer></script>
+    
+    <title>Güiria Chamber of Commerce-Homepage</title>
+    <meta property="og:title" content="Güiria Chamber of Commerce Homepage">
+    <meta property="og:description" content="Explore the homepage for Güiria, Venezuela. find temperature site of interest and more details for the beutifull town.">
+    <meta property="og:url" content="https://dracosblood.github.io/wdd231/chamber/home.html">
+    <meta property="og:image" content="https://dracosblood.github.io/wdd231/chamber/images/guiria.jpg">
+</head>
+<body>
+    <header class="header-home">
+        <section class="nav-title">
+            <img src="../images/logo-home.webp" alt="logo for Darwin j Tovar">
+            <h2>Home Page - Guiria Chamber of Commerce</h2>
+        </section>
+
+        <nav class="nav-home">
+            <button id="hamburger">&#9776;</button>
+            <a href="index.html" class="active">Home</a>
+            <a href="discover.html">Discover</a>
+            <a href="directory.html">Directory</a>
+            <a href="join.html">Join</a>
+
+        </nav>
+    </header>
+    <main>
+        <h1>Guiria Home Page</h1>
+
+        <section class="hero">
+            <img src="images/guiria.webp" alt="hero image for Guiria chamber homepage" class="hero-img">
+            <a href="join.html" class="cta-button">Join Us</a>
+        </section>
+        <section class="events">
+            <h2>Current Events</h2>
+            <p>Holiday season offers will be published soon.</p>
+        </section>
+        
+        <section class="weather">
+            <h2>Current Weather</h2>
+            <div id="weather">
+                
+            </div>
+          
+        </section>
+
+       
+        <section class="spotlight">
+            <h2>Company Spotlights</h2>
+            <div id="spotlight"></div>
+            
+        </section>
+
+
+    </main>
+    <footer>
+        <section class="footer-info">
+            <h3>Guiria Homepage</h3>
+            <p>Address: 123 Main Street, Guiria, Sucre, Venezuela</p>
+            <p>Phone: +58 295 1234567</p>
+            <p>Email: info@chamber.com</p>
+        </section>
+        <section class="contact">
+            <a href="linkedin" target="_blank" aria-label="LinkedIn"><img src="images/linkedin.png" alt="icon of linkedin"></a>
+            <a href="github" target="_blank" aria-label="github"><img src="images/signo-de-github.png" alt="icon of github"></a>
+            <a href="facebook" target="_blank" aria-label="facebook"><img src="images/facebook.png" alt="icon of facebook"></a>
+        </section>
+        <section class="js-footer">
+            <p id="year"><span></span></p>
+            <p id="lastModified"></p>
+        </section>
+    </footer>
+</body>
+</html>
