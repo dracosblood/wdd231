@@ -83,6 +83,8 @@ nav a.active {
     padding: 6px 12px;
     border-radius: 5px;
     font-weight: bold;
+    text-align: center;
+    
 }
 main{
     width: 80%;

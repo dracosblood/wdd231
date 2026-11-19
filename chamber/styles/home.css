@@ -146,6 +146,8 @@ nav a.active {
     padding: 6px 12px;
     border-radius: 5px;
     font-weight: bold;
+    text-align: center;
+
 }
 .events {
     background-color: #a8e4f5;
