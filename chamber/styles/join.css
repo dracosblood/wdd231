@@ -255,3 +255,48 @@ footer section{
 
     
 }
+
+
+.thankyou-main {
+  max-width: 720px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.thankyou-card {
+  padding: 1.75rem;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  background-color: #ffffff;
+}
+
+.submission-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.6rem;
+  margin: 1.5rem 0;
+}
+
+.submission-list dt {
+  font-weight: 700;
+  color: #16324f;
+}
+
+.submission-list dd {
+  margin: 0 0 0.5rem 0;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #e5e7eb;
+  word-break: break-word;
+}
+
+.back-link {
+  display: inline-block;
+  margin-top: 0.5rem;
+  padding: 0.65rem 1.2rem;
+  border-radius: 6px;
+  background-color: #16324f;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 600;
+}
+
